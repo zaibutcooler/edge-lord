@@ -18,7 +18,7 @@ import LandingNavbar from "../components/landing/LandingNavbar.svelte";
 
 <main>
 	<LandingNavbar/>
-	<div class="mx-auto container">
+	<div class="mx-auto container text-cyan-900">
 		<HeroSection/>
 		<AboutSection/>
 		<ClientSection/>

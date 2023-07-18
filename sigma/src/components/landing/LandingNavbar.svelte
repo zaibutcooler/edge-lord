@@ -16,7 +16,7 @@
               <a href="#client" class="hidden md:block text-blue-950 hover:text-gray-800 px-3 py-2 rounded-md text-sm font-medium">Services</a>
               <a href="#contact" class="hidden md:block text-blue-950 hover:text-gray-800 px-3 py-2 rounded-md text-sm font-medium">Contact</a>
               <!-- <a href="/login" class="flex items-center justify-center w-24 bg-black text-white hover:bg-white hover:text-black px-3 py-2 rounded-md text-sm font-medium">Login</a> -->
-              <a href="/register" class="flex items-center justify-center w-24 bg-black text-white hover:bg-white hover:text-black px-3 py-2 rounded-md text-sm font-medium">Register</a>
+              <a href="/register" class="flex items-center justify-center w-24 bg-primary text-white hover:bg-white hover:text-black px-3 py-2 rounded-md text-sm font-medium">Register</a>
             </div>
 
         </div>

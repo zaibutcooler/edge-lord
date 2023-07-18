@@ -7,7 +7,6 @@
 
 Home Page
 
-<slot/>
 
 
 </main>
