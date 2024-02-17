@@ -1,5 +1,0 @@
-<nav>
-
-    Landing Footer
-
-</nav>

@@ -1,5 +1,0 @@
-<main>
-
-Profile Page
-
-</main>
