@@ -8,7 +8,7 @@ import { ArrowRight, Loader2 } from "lucide-react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
-export const LoginPage = () => {
+const LoginPage = () => {
   const [errors, setErrors] = useState<any>({
     email: "",
     password: { message: "something" },
@@ -100,3 +100,5 @@ export const LoginPage = () => {
     </>
   );
 };
+
+export default LoginPage;

@@ -8,7 +8,7 @@ import { ArrowRight } from "lucide-react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
-export const RegisterPage = () => {
+const RegisterPage = () => {
   const [errors, setErrors] = useState<any>({
     email: "",
     password: { message: "something" },
@@ -81,3 +81,5 @@ export const RegisterPage = () => {
     </>
   );
 };
+
+export default RegisterPage;
