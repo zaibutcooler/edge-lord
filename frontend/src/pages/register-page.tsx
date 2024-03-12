@@ -9,7 +9,10 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 
 export const RegisterPage = () => {
-  const [errors, setErrors] = useState<any>(null);
+  const [errors, setErrors] = useState<any>({
+    email: "",
+    password: { message: "something" },
+  });
   const [isLoading, setIsLoading] = useState(false);
 
   const handleSubmit = async () => {};
