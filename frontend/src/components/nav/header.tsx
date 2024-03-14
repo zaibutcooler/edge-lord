@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { buttonVariants } from "../ui/button";
 import { Logo } from "../ui/logo";
+import { ROUTE_PATHS } from "@/App";
 // import MaxWidthWrapper from './MaxWidthWrapper'
 // import { Icons } from './Icons'
 // import NavItems from './NavItems'
@@ -36,7 +37,7 @@ export const Header = () => {
                 <div className="hidden lg:flex lg:flex-1 lg:items-center lg:justify-end lg:space-x-6">
                   {user ? null : (
                     <Link
-                      to="/sign-in"
+                      to={ROUTE_PATHS.login}
                       className={buttonVariants({
                         variant: "ghost",
                       })}>
@@ -53,7 +54,7 @@ export const Header = () => {
                   ) : (
                     // <UserAccountNav user={user} />
                     <Link
-                      to="/sign-up"
+                      to={ROUTE_PATHS.signUp}
                       className={buttonVariants({
                         variant: "ghost",
                       })}>
